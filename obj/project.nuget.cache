@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JbW9kZYi5cc=",
+  "dgSpecHash": "9bc7Sct30wI=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\MiniWorkflowBuilder\\MiniWorkflowBuilderV1\\MiniWorkflowBuilderV1.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,8 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.17\\microsoft.net.illink.tasks.8.0.17.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.6\\microsoft.net.sdk.webassembly.pack.9.0.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\z.blazor.diagrams\\0.5.0\\z.blazor.diagrams.0.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\z.blazor.diagrams.core\\0.5.0\\z.blazor.diagrams.core.0.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.17\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.17.nupkg.sha512"
   ],
   "logs": []

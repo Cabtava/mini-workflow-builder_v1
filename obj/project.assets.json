@@ -449,6 +449,38 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Z.Blazor.Diagrams/0.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.4",
+          "Microsoft.AspNetCore.Components.Web": "3.1.4",
+          "Z.Blazor.Diagrams.Core": "0.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Blazor.Diagrams.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Blazor.Diagrams.dll": {}
+        },
+        "build": {
+          "buildTransitive/Z.Blazor.Diagrams.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Z.Blazor.Diagrams.props": {}
+        }
+      },
+      "Z.Blazor.Diagrams.Core/0.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "3.1.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/Blazor.Diagrams.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Blazor.Diagrams.Core.dll": {}
+        }
       }
     },
     "net8.0/browser-wasm": {
@@ -898,6 +930,38 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Z.Blazor.Diagrams/0.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.4",
+          "Microsoft.AspNetCore.Components.Web": "3.1.4",
+          "Z.Blazor.Diagrams.Core": "0.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Blazor.Diagrams.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Blazor.Diagrams.dll": {}
+        },
+        "build": {
+          "buildTransitive/Z.Blazor.Diagrams.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Z.Blazor.Diagrams.props": {}
+        }
+      },
+      "Z.Blazor.Diagrams.Core/0.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "3.1.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/Blazor.Diagrams.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Blazor.Diagrams.Core.dll": {}
         }
       }
     }
@@ -1834,6 +1898,37 @@
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Z.Blazor.Diagrams/0.5.0": {
+      "sha512": "bYEuC6oi3Ql7hIFrXF2O5uR/aHieydzv4BXU5RvZzIE/dubNLN2U6h9WebmLQ96UAay4/H6+XVOn6iOmQI3Oiw==",
+      "type": "package",
+      "path": "z.blazor.diagrams/0.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Z.Blazor.Diagrams.props",
+        "buildMultiTargeting/Z.Blazor.Diagrams.props",
+        "buildTransitive/Z.Blazor.Diagrams.props",
+        "lib/netstandard2.1/Blazor.Diagrams.dll",
+        "staticwebassets/default.styles.css",
+        "staticwebassets/script.js",
+        "staticwebassets/style.css",
+        "z.blazor.diagrams.0.5.0.nupkg.sha512",
+        "z.blazor.diagrams.nuspec"
+      ]
+    },
+    "Z.Blazor.Diagrams.Core/0.5.0": {
+      "sha512": "xIaMnF4FVgX02LCXntBMZrK+XCXmc9I/fCKcHPkVhxUQ6yNJTjLaOSCLOXjAhkgtrqAePGmGYiRuEns0j2Z/Mw==",
+      "type": "package",
+      "path": "z.blazor.diagrams.core/0.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Blazor.Diagrams.Core.dll",
+        "z.blazor.diagrams.core.0.5.0.nupkg.sha512",
+        "z.blazor.diagrams.core.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -1841,7 +1936,8 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.17",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.17",
       "Microsoft.NET.ILLink.Tasks >= 8.0.17",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.6"
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.6",
+      "Z.Blazor.Diagrams >= 0.5.0"
     ]
   },
   "packageFolders": {
@@ -1907,6 +2003,10 @@
             "target": "Package",
             "version": "[9.0.6, )",
             "autoReferenced": true
+          },
+          "Z.Blazor.Diagrams": {
+            "target": "Package",
+            "version": "[0.5.0, )"
           }
         },
         "imports": [

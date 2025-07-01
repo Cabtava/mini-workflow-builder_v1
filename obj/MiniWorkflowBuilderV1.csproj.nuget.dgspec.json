@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[9.0.6, )",
               "autoReferenced": true
+            },
+            "Z.Blazor.Diagrams": {
+              "target": "Package",
+              "version": "[0.5.0, )"
             }
           },
           "imports": [
