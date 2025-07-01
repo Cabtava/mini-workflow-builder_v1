@@ -101,3 +101,19 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+
+.diagram-canvas {
+    background: radial-gradient(circle, #e5e7eb 1px, transparent 1px);
+    background-size: 25px 25px;
+}
+
+.custom-node {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: white;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

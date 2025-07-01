@@ -1,0 +1,35 @@
+@* @using Blazor.Diagrams
+@using Blazor.Diagrams.Components
+@using Blazor.Diagrams.Core
+@using Blazor.Diagrams.Core.Models
+
+<DiagramComponent Diagram="@Diagram" Class="diagram-canvas" @ondrop="OnDrop" @ondragover="OnDragOver" />
+
+@code {
+    private Diagram Diagram { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Diagram = new Diagram();
+        Diagram.Options.EnableZoom = true;
+        Diagram.Options.AllowMultiSelection = true;
+    }
+
+    private void OnDragOver(DragEventArgs e)
+    {
+        e.PreventDefault();
+    }
+
+    private void OnDrop(DragEventArgs e)
+    {
+        var position = Diagram.Viewport.GetRelativePoint(e.ClientX, e.ClientY);
+
+        var node = new NodeModel(position)
+        {
+            Width = 48,
+            Height = 48
+        };
+
+        Diagram.Nodes.Add(node);
+    }
+} *@

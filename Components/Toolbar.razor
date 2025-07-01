@@ -1,0 +1,27 @@
+@inject IJSRuntime JS
+
+<div class="d-flex flex-column gap-3 p-2">
+    @foreach (var (type, file) in toolIcons)
+    {
+        <div draggable="true" @ondragstart="(e) => OnDragStart(e, type)">
+            <img src="@($"/icons/{file}")" alt="@type" width="32" height="32" />
+        </div>
+    }
+</div>
+
+@code {
+    private readonly (string type, string file)[] toolIcons = new[]
+    {
+("start", "start_icon.svg"),
+("if", "if_condition_icon.svg"),
+("switch", "switch.svg"),
+("foreach", "for_each_icon.svg"),
+("scope", "scope.svg"),
+("end", "end_icon.svg")
+};
+
+    private async void OnDragStart(DragEventArgs e, string type)
+    {
+        await JS.InvokeVoidAsync("setDragData", e, "application/node-type", type);
+    }
+}

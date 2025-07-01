@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\MiniWorkflowBuilder\\MiniWorkflowBuilderV1\\MiniWorkflowBuilderV1.csproj": {}
+    "C:\\Users\\user\\Desktop\\MiniWorkflowBuilderV1\\MiniWorkflowBuilderV1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\MiniWorkflowBuilder\\MiniWorkflowBuilderV1\\MiniWorkflowBuilderV1.csproj": {
+    "C:\\Users\\user\\Desktop\\MiniWorkflowBuilderV1\\MiniWorkflowBuilderV1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\MiniWorkflowBuilder\\MiniWorkflowBuilderV1\\MiniWorkflowBuilderV1.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\MiniWorkflowBuilderV1\\MiniWorkflowBuilderV1.csproj",
         "projectName": "MiniWorkflowBuilderV1",
-        "projectPath": "C:\\Users\\user\\Desktop\\MiniWorkflowBuilder\\MiniWorkflowBuilderV1\\MiniWorkflowBuilderV1.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\MiniWorkflowBuilderV1\\MiniWorkflowBuilderV1.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\MiniWorkflowBuilder\\MiniWorkflowBuilderV1\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\MiniWorkflowBuilderV1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

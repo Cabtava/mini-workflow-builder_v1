@@ -1,0 +1,29 @@
+@page "/workflow"
+
+@using MiniWorkflowBuilderV1.Components
+
+<div class="layout d-flex flex-column vh-100">
+    <!-- Header -->
+    <div class="header d-flex align-items-center justify-content-between p-2 border-bottom">
+        <h5 class="m-0">My New Workflow</h5>
+        <!-- Future: Label toggle, Save, Undo, etc. -->
+    </div>
+
+    <!-- Main Body -->
+    <div class="flex-grow-1 d-flex overflow-hidden">
+        <!-- Sidebar Toolbar -->
+        <div class="toolbar bg-light border-end p-2">
+            <Toolbar />
+        </div>
+
+        <!-- Canvas -->
+        <div class="canvas flex-grow-1 position-relative">
+            <DiagramCanvas />
+        </div>
+
+        <!-- Drawer -->
+        <div class="drawer bg-white border-start p-3" style="width: 360px;">
+            <Drawer />
+        </div>
+    </div>
+</div>
